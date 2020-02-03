@@ -4,11 +4,12 @@ Git has a mutable index called stage.
 Git tracks changes.
 now git.com connected
 
+git commands:
 
 git add readme.txt
 git commit -m "xxxxx "
-git commands
 
+git status
 git log
 git log --pretty=oneline
 
