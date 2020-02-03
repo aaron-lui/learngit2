@@ -1,0 +1,47 @@
+Administrator@YLMF-2019PCYWUQ MINGW64 /G/learngit/liao (master)
+$ git add *
+
+Administrator@YLMF-2019PCYWUQ MINGW64 /G/learngit/liao (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   readme.txt
+
+
+Administrator@YLMF-2019PCYWUQ MINGW64 /G/learngit/liao (master)
+$ git commit -m "add commands again "
+[master 4bede42] add commands again
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Administrator@YLMF-2019PCYWUQ MINGW64 /G/learngit/liao (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Administrator@YLMF-2019PCYWUQ MINGW64 /G/learngit/liao (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 310 bytes | 310.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/aaron-lui/learngit2.git
+   835d399..4bede42  master -> master
+
+Administrator@YLMF-2019PCYWUQ MINGW64 /G/learngit/liao (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Administrator@YLMF-2019PCYWUQ MINGW64 /G/learngit/liao (master)
+$
